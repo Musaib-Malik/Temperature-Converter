@@ -1,0 +1,102 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+}
+
+#myForm {
+  border: 2px crimson solid;
+  border-radius: 5px;
+  width: 55%;
+  height: 60vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #222;
+}
+
+.item {
+  position: relative;
+  bottom: 13%;
+  border: none;
+  background-color: coral;
+  padding: 5px 8px;
+  font-family: Comfortaa;
+  border-radius: 2px;
+  font-weight: 700;
+}
+
+input {
+  background-color: #fff;
+  border: none;
+  padding: 4px 4px;
+  outline: none;
+  border-radius: 4px;
+  font-family: Comfortaa;
+  font-weight: 400;
+}
+
+select {
+  width: 10vw;
+  background-color: coral;
+  border: none;
+  padding: 2px;
+  outline: none;
+  border-radius: 4px;
+  font-family: Comfortaa;
+  font-weight: 500;
+  transition: all 400ms ease-in-out;
+
+}
+
+select option {
+  outline: none;
+  background-color: #fff;
+}
+
+.submitBtn {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: Bahnschrift;
+  cursor: pointer;
+}
+
+.clear {
+  background-color: #fff;
+  border: none;
+  padding: 4px 4px;
+  outline: none;
+  width: 20%;
+  border-radius: 4px;
+  font-family: Comfortaa;
+  cursor: pointer;
+}
+
+form .item-3,
+.item-4,
+.clear {
+  font-family: Montserrat;
+  font-weight: 500;
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  #myForm {
+    width: 25%;
+  }
+
+  select {
+    width: 6vw;
+  }
+}

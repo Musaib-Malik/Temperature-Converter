@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+
+  <title>Document</title>
+</head>
+
+<body>
+
+  <form id="myForm">
+    <div class="item">Temperature Converter</div>
+    <div class="item-1"><input type="number" class="temperature-input" placeholder="Enter the temperature"
+        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the temperature'"></div>
+
+    <div class="item-2">
+      <select id="converter-list">
+        <option value="C">C</option>
+        <option value="F">F</option>
+        <option value="K">K</option>
+      </select>
+      <input type="submit" class="submitBtn" value="Convert">
+    </div>
+
+
+
+    <div class="item-3">
+      <input type="text" disabled class="disabled first">
+    </div>
+
+    <div class="item-4">
+      <input type="text" disabled class="disabled second">
+    </div>
+
+    <button class="clear">Clear</button>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
