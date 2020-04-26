@@ -20,7 +20,7 @@ input::-webkit-inner-spin-button {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   justify-content: space-evenly;
   align-items: center;
   background-color: #222;
@@ -28,7 +28,7 @@ input::-webkit-inner-spin-button {
 
 .item {
   position: relative;
-  bottom: 13%;
+  bottom: 22%;
   border: none;
   background-color: coral;
   padding: 5px 8px;
@@ -36,6 +36,7 @@ input::-webkit-inner-spin-button {
   border-radius: 2px;
   font-weight: 700;
 }
+
 
 input {
   background-color: #fff;
@@ -75,7 +76,7 @@ select option {
 .clear {
   background-color: #fff;
   border: none;
-  padding: 4px 4px;
+  padding: 2px 1px;
   outline: none;
   width: 20%;
   border-radius: 4px;
@@ -89,6 +90,7 @@ form .item-3,
   font-family: Montserrat;
   font-weight: 500;
   display: none;
+  transition: all 0.7s ease-in-out;
 }
 
 @media (min-width: 1024px) {

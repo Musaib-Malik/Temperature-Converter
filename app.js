@@ -5,6 +5,7 @@ const selectList = document.getElementById('converter-list');
 const first = document.querySelector('.first');
 const second = document.querySelector('.second');
 const item = document.querySelector('.item-1');
+const item2 = document.querySelector('.item');
 const item3 = document.querySelector('.item-3');
 const item4 = document.querySelector('.item-4');
 const clear = document.querySelector('.clear');
@@ -53,6 +54,9 @@ function convert(e) {
     item3.style.display = 'block';
     item4.style.display = 'block';
     clear.style.display = 'block';
+
+    item2.style.position = 'absolute';
+    item2.style.bottom = '22em'
 
   }
 
