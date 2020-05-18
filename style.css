@@ -4,6 +4,10 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
 * {
   margin: 0;
 }
@@ -37,11 +41,10 @@ input::-webkit-inner-spin-button {
   font-weight: 700;
 }
 
-
 input {
   background-color: #fff;
   border: none;
-  padding: 4px 4px;
+  padding: 6px;
   outline: none;
   border-radius: 4px;
   font-family: Comfortaa;
@@ -58,7 +61,6 @@ select {
   font-family: Comfortaa;
   font-weight: 500;
   transition: all 400ms ease-in-out;
-
 }
 
 select option {
@@ -69,7 +71,8 @@ select option {
 .submitBtn {
   margin-left: 20px;
   margin-bottom: 20px;
-  font-family: Bahnschrift;
+  font-family: Montserrat;
+  font-weight: 600;
   cursor: pointer;
 }
 
